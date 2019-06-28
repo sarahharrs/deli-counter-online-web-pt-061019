@@ -1,4 +1,4 @@
-Katz_deli = []
+ #Katz_deli = []
     def line(Katz_deli)
   if Katz_deli.empty?
     puts "The line is currently empty."
@@ -9,7 +9,6 @@ Katz_deli = []
     end
     puts current_line
   end
-end
 
 def take_a_number(Katz_deli, name)
   katz_deli << name
